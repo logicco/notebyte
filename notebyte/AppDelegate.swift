@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  notebyte
-//
-//  Created by Bhav Gill on 2020-12-25.
-//
-
 import UIKit
 
 @main

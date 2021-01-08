@@ -1,14 +1,16 @@
-//
-//  notebyteTests.swift
-//  notebyteTests
-//
-//  Created by Bhav Gill on 2020-12-25.
-//
-
 import XCTest
 @testable import notebyte
 
 class notebyteTests: XCTestCase {
+    
+    func testContentWhitespaces(){
+        let note = Note()
+        note.content = "  note"
+        XCTAssertEqual(note.contentDescription, "note")
+        
+    }
+    
+       
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
